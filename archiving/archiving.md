@@ -3,7 +3,7 @@
 ## People planning the discussion
 - Abbi
 - Anne
-- Mark
+- [Mark](https://github.com/markdunning)
 
 ## Schedule
 - *13:30-14:15* **Internal archiving**
