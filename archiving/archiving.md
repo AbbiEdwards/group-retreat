@@ -27,6 +27,7 @@
 - Readme file inside project folder as well as uploaded into Redmine
 - Software file with version at bottom of all reports as well as software version of the generation of fastq
 - Every project runs in a Docker container
+- What do we keep? All analysis or only the last one? Need for cleanup stage.
 
 ### External
 - Internal archive to record what has been done or use existing external ones?
