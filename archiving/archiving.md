@@ -53,6 +53,7 @@
 ### Open questions
 - How to motivate Bioinformatics Core to follow good practice? 
     - Set up a check list for some else to verify a project status?
+    - i.e. checking that all the files are present and well-documented, not that the analysis is "correct"
 - Store metadata locally and automatically generate the GEO submission. *OR* Create GEO submission at the end of every project.
     - submission does not get made public automatically
 - Guidance on preferences for submitting to GEO vs ArrayExpress
