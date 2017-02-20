@@ -47,13 +47,19 @@
 - At submission when scientists should know everything.
 
 #### Reducing efforts
-- Generate submission spreadsheet using a script need to be more generic and robust, and in version control
+- Generate submission spreadsheet using a script need to be more generic and robust, 
+    - and in version control
 
 ### Open questions
-- How to motivate Bioinformatics Core to follow good practice? Set up a check list for some else to verify a project status.
-- Store metadata locally and generate automatically the GEO submission. *OR* Create GEO submission at the end of every project.
+- How to motivate Bioinformatics Core to follow good practice? 
+    - Set up a check list for some else to verify a project status?
+- Store metadata locally and automatically generate the GEO submission. *OR* Create GEO submission at the end of every project.
     - submission does not get made public automatically
 - Guidance on preferences for submitting to GEO vs ArrayExpress
   - ArrayExpress more stringent, able to submit BAM files
   - GEO easier to import into Bioconductor (GEOquery library)?
+- What would we prefer as analysts downloading someone else's data; fastq or bam? 
+- Some funders / projects might demand restricted access to their data
+   - e.g. data where patients are potentially identify-able
+   - might need submission to E.G.A
 - How to find the fastq based on sample names?
