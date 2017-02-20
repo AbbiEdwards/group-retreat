@@ -22,19 +22,34 @@
 ## Bullet points
 ### Internal
 - Keeping track of path to archive
-  - Add path into Redmine when archiving
+  - Add path into Redmine when archiving projects
   - Report to generate from Redmine: all archived projects with their link to archive
 - Readme file inside project folder as well as uploaded into Redmine
 - Software file with version at bottom of all reports as well as software version of the generation of fastq
+- Every project runs in a Docker container
 
 ### External
 - Internal archive to record what has been done or use existing external ones?
 - Lab notebook does not always record everything
 - Add extra comments when samples submitted? Maybe better at project level, metadata same as plate layout in Redmine but not always the same version as the one in LIMS
+- How should we gather the metadata for each project?
+  - When? As early as possible
+  - Do we need an extra database for metadata or in spreadsheet attached to Redmine?
+
+#### What do we need to record?
+- Wet-lab from bench scientist
+- Sequencing library from genomics
+- Analysis from bioinformatics
+
+#### When to record?
+- At submission when scientists should know everything.
+
+#### Reducing efforts
+- Generate submission spreadsheet using a script need to be more generic and robust, and in version control
 
 ### Open questions
 - How to motivate bioinformatics core to follow good practice? Set up a check list for some else to verify a project status.
 - Store metadata locally and generate automatically the GO submission. OR Create GO submission at the end of every project.
-- Guidance on preferences for submission GO vs ArrayExpress
+- Guidance on preferences for submitting to GO vs ArrayExpress
+  - ArrayExpress more stringent, able to submit BAM files
 - How to find the fastq based of sample names?
-- Could we generate a submission spreadsheet?
