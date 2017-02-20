@@ -26,8 +26,9 @@
   - Report to generate from Redmine: all archived projects with their link to archive
 - Readme file inside project folder as well as uploaded into Redmine
 - Software file with version at bottom of all reports as well as software version of the generation of fastq
-- Every project runs in a Docker container
+- Every project runs in a Docker container?
 - What do we keep? All analysis or only the last one? Need for cleanup stage.
+    - Don't want to keep several copies of large files (e.g. bam)
 
 ### External
 - Internal archive to record what has been done or use existing external ones?
@@ -39,8 +40,8 @@
 
 #### What do we need to record?
 - Wet-lab from bench scientist
-- Sequencing library from genomics
-- Analysis from bioinformatics
+- Sequencing library from Genomics
+- Analysis from Bioinformatics
 
 #### When to record?
 - At submission when scientists should know everything.
@@ -49,8 +50,10 @@
 - Generate submission spreadsheet using a script need to be more generic and robust, and in version control
 
 ### Open questions
-- How to motivate bioinformatics core to follow good practice? Set up a check list for some else to verify a project status.
-- Store metadata locally and generate automatically the GO submission. OR Create GO submission at the end of every project.
-- Guidance on preferences for submitting to GO vs ArrayExpress
+- How to motivate Bioinformatics Core to follow good practice? Set up a check list for some else to verify a project status.
+- Store metadata locally and generate automatically the GEO submission. *OR* Create GEO submission at the end of every project.
+    - submission does not get made public automatically
+- Guidance on preferences for submitting to GEO vs ArrayExpress
   - ArrayExpress more stringent, able to submit BAM files
-- How to find the fastq based of sample names?
+  - GEO easier to import into Bioconductor (GEOquery library)?
+- How to find the fastq based on sample names?
